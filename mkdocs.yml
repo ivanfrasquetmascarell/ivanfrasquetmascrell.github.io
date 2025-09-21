@@ -1,0 +1,17 @@
+site_name: Mkdocs
+theme:
+    name: material
+    language: es
+    font:
+        text: Roboto
+    palette:
+        primary: indigo
+        accent: amber
+features:
+    - content.code.copy
+nav:
+  - Inicio: index.md
+  - Documentación:
+      - Scripts Gradle: scripts_gradle/index.html
+      - Codi font: directoris_de_codi_font/index.html
+      - Manifest: Manifest/index.html
